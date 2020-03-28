@@ -1,0 +1,100 @@
+{
+  "nextVersion" : {
+    "major" : 0,
+    "minor" : 6,
+    "patch" : 0,
+    "preReleaseParts" : [ "SNAPSHOT" ],
+    "buildMetaDataParts" : [ ],
+    "preRelease" : "SNAPSHOT",
+    "buildMetaData" : "",
+    "initialDevelopment" : true,
+    "stable" : false
+  },
+  "lastVersion" : {
+    "major" : 0,
+    "minor" : 5,
+    "patch" : 0,
+    "preReleaseParts" : [ ],
+    "buildMetaDataParts" : [ ],
+    "preRelease" : "",
+    "buildMetaData" : "",
+    "initialDevelopment" : true,
+    "stable" : true
+  },
+  "tags" : [ {
+    "version" : {
+      "major" : 0,
+      "minor" : 5,
+      "patch" : 0,
+      "preReleaseParts" : [ ],
+      "buildMetaDataParts" : [ ],
+      "preRelease" : "",
+      "buildMetaData" : "",
+      "initialDevelopment" : true,
+      "stable" : true
+    },
+    "releaseDate" : "2020-03-28 15:23:59.000 +0000",
+    "sections" : [ {
+      "title" : "Features",
+      "commits" : [ {
+        "hashFull" : "d950193d1249573fe78cb42182eb15699b96d72c",
+        "hash" : "d950193d1249573",
+        "hash7" : "d950193",
+        "hash8" : "d950193d",
+        "commitTime" : "2020-03-28 15:20:24.000 +0000",
+        "commitTimeLong" : 1585408824,
+        "message" : "feat(service): implement primary features and challenges\n\n------------\n# Locales\n- **[zh-cn]** 实现主要功能\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2020-03-28 14:30:04.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2020-03-28 15:20:24.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ {
+          "commitHash" : "d950193d1249573fe78cb42182eb15699b96d72c",
+          "lang" : "zh-cn",
+          "commitType" : null,
+          "commitScope" : null,
+          "subject" : "实现主要功能"
+        } ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/d950193d1249573fe78cb42182eb15699b96d72c",
+        "commitType" : "feat",
+        "commitPackage" : null,
+        "commitScope" : "service",
+        "commitSubject" : "implement primary features and challenges",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "localeMap" : {
+          "zh-cn" : {
+            "commitHash" : "d950193d1249573fe78cb42182eb15699b96d72c",
+            "lang" : "zh-cn",
+            "commitType" : null,
+            "commitScope" : null,
+            "subject" : "实现主要功能"
+          }
+        },
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "feat",
+        "rawCommitScope" : "service",
+        "rawCommitSubject" : "implement primary features and challenges",
+        "messageTitle" : "feat(service): implement primary features and challenges",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 实现主要功能"
+      } ]
+    } ]
+  } ]
+}
