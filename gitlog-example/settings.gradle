@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven {
+            name 'local'
+            url '/home/oc/.m2/repository'
+        }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = 'gitlog-example'

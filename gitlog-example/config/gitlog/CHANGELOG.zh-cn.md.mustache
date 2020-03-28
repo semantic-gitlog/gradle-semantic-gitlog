@@ -1,0 +1,23 @@
+# 更新日志
+{{#tags}}
+
+{{#version}}## {{version}} ({{#releaseDate}}{{#formatDate}}{{releaseDate}}|yyyy-MM-dd{{/formatDate}}{{/releaseDate}}{{^releaseDate}}{{#formatDate}}{{now}}|yyyy-MM-dd{{/formatDate}}{{/releaseDate}}){{/version}}{{^version}}## {{nextVersion}} (Unreleased, {{#releaseDate}}{{#formatDate}}{{releaseDate}}|yyyy-MM-dd{{/formatDate}}{{/releaseDate}}{{^releaseDate}}{{#formatDate}}{{now}}|yyyy-MM-dd{{/formatDate}}{{/releaseDate}}){{/version}}
+{{#sections}}
+
+### {{title}}
+
+{{#commits}}
+- {{#commitScope}}**{{#scopeProfile}}{{commitPackage}}{{commitScope}}|zh-cn{{/scopeProfile}}**: {{/commitScope}}{{#localeMap}}{{& zh-cn.subject}}{{/localeMap}}{{^localeMap}}{{& commitSubject}}{{/localeMap}}{{#subjectIssues}} ([#{{id}}]({{url}})){{/subjectIssues}} ([{{hash8}}]({{commitUrl}})){{#hasCloseIssues}}, closes{{#closeIssues}} [#{{id}}]({{url}}){{/closeIssues}}{{/hasCloseIssues}}
+{{/commits}}
+
+{{/sections}}
+{{^sections}}
+
+暂无更新说明。
+
+{{/sections}}
+{{/tags}}
+{{^tags}}
+
+暂无内容。
+{{/tags}}

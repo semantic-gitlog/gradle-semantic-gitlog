@@ -1,0 +1,76 @@
+plugins {
+    id 'java'
+    id 'team.yi.semantic-gitlog' version '0.4.1.2-SNAPSHOT'
+}
+
+group = 'team.yi.gradle.plugin.example'
+version = '0.1.0-SNAPSHOT'
+
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
+}
+
+test {
+    useJUnitPlatform()
+
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+// ./gradlew setVersion -P newVersion=2.1.3
+task setVersion {
+    println version
+
+    if (project.hasProperty('newVersion')) {
+        println "Set Project to new Version $newVersion"
+
+        String s = buildFile.getText().replaceFirst("version = '$version'", "version = '" + newVersion + "'")
+
+        buildFile.setText(s)
+    }
+}
+
+changelog {
+    toRef = "master"
+    isUnstable = true
+
+    jsonFile = file("${project.rootDir}/CHANGELOG.json")
+    fileSets = [
+        {
+            template = file("${project.rootDir}/config/gitlog/CHANGELOG.md.mustache")
+            target = file("${project.rootDir}/CHANGELOG.md")
+        },
+        {
+            template = file("${project.rootDir}/config/gitlog/CHANGELOG.zh-cn.md.mustache")
+            target = file("${project.rootDir}/CHANGELOG.zh-cn.md")
+        }
+    ]
+    commitLocales = [
+        "zh-cn": file("${project.rootDir}/config/gitlog/commit-locales.zh-cn.md")
+    ]
+    scopeProfiles = [
+        "zh-cn": file("${project.rootDir}/config/gitlog/commit-scopes.zh-cn.md")
+    ]
+}
+
+derive {
+    toRef = "master"
+    isUnstable = true
+    derivedVersionMark = "NEXT_VERSION:=="
+
+    commitLocales = [
+        "zh-cn": file("${project.rootDir}/config/gitlog/commit-locales.zh-cn.md")
+    ]
+    scopeProfiles = [
+        "zh-cn": file("${project.rootDir}/config/gitlog/commit-scopes.zh-cn.md")
+    ]
+}
