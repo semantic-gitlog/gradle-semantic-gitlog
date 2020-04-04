@@ -7,7 +7,7 @@ plugins {
     id 'checkstyle'
     id 'pmd'
     id "io.freefair.lombok" version "4.1.6"
-    id 'team.yi.semantic-gitlog' version '0.4.1.1'
+    id 'team.yi.semantic-gitlog' version '0.5.0'
 }
 
 group = 'team.yi.gradle.plugin'
@@ -200,29 +200,28 @@ task setVersion {
 }
 
 changelog {
-    toRef = "master"
+    toRef = "dev"
     isUnstable = true
     preRelease = 'SNAPSHOT'
-    lastVersion = '0.4.0'
 
-    jsonFile = file("${project.rootDir}/CHANGELOG.json")
+    jsonFile = file("${rootDir}/CHANGELOG.json")
     fileSets = [
         {
-            template = file("${project.rootDir}/config/gitlog/CHANGELOG.md.mustache")
-            target = file("${project.rootDir}/CHANGELOG.md")
+            template = file("${rootDir}/config/gitlog/CHANGELOG.md.mustache")
+            target = file("${rootDir}/CHANGELOG.md")
         },
         {
-            template = file("${project.rootDir}/config/gitlog/CHANGELOG.zh-cn.md.mustache")
-            target = file("${project.rootDir}/CHANGELOG.zh-cn.md")
+            template = file("${rootDir}/config/gitlog/CHANGELOG.zh-cn.md.mustache")
+            target = file("${rootDir}/CHANGELOG.zh-cn.md")
         }
     ]
     commitLocales = [
-        "en"   : file("${project.rootDir}/config/gitlog/commit-locales.md"),
-        "zh-cn": file("${project.rootDir}/config/gitlog/commit-locales.zh-cn.md")
+        "en"   : file("${rootDir}/config/gitlog/commit-locales.md"),
+        "zh-cn": file("${rootDir}/config/gitlog/commit-locales.zh-cn.md")
     ]
     scopeProfiles = [
-        "en"   : file("${project.rootDir}/config/gitlog/commit-scopes.md"),
-        "zh-cn": file("${project.rootDir}/config/gitlog/commit-scopes.zh-cn.md")
+        "en"   : file("${rootDir}/config/gitlog/commit-scopes.md"),
+        "zh-cn": file("${rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
     issueUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/issues/:issueId"
     commitUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/commit/:commitId"
@@ -230,18 +229,17 @@ changelog {
 }
 
 derive {
-    toRef = "master"
+    toRef = "dev"
     isUnstable = true
     preRelease = 'SNAPSHOT'
-    lastVersion = '0.4.0'
     derivedVersionMark = "NEXT_VERSION:=="
 
     commitLocales = [
-        "en"   : file("${project.rootDir}/config/gitlog/commit-locales.md"),
-        "zh-cn": file("${project.rootDir}/config/gitlog/commit-locales.zh-cn.md")
+        "en"   : file("${rootDir}/config/gitlog/commit-locales.md"),
+        "zh-cn": file("${rootDir}/config/gitlog/commit-locales.zh-cn.md")
     ]
     scopeProfiles = [
-        "en"   : file("${project.rootDir}/config/gitlog/commit-scopes.md"),
-        "zh-cn": file("${project.rootDir}/config/gitlog/commit-scopes.zh-cn.md")
+        "en"   : file("${rootDir}/config/gitlog/commit-scopes.md"),
+        "zh-cn": file("${rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
 }
