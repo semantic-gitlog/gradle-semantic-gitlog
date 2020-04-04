@@ -30,10 +30,13 @@ public class ChangelogTask extends BaseTask {
         return this.fileSets;
     }
 
-    public void setFileSets(final List<Closure<?>> closures) {
+    @SuppressWarnings("PMD.MethodArgumentCouldBeFinal")
+    public void setFileSets(List<Closure<FileSet>> fileSets) {
+        log.info("{}", fileSets.size());
+
         this.fileSets = new HashSet<>();
 
-        for (final Closure<?> closure : closures) {
+        for (final Closure<FileSet> closure : fileSets) {
             final FileSet fileSet = new FileSet();
 
             ConfigureUtil.configure(closure, fileSet);
@@ -42,6 +45,11 @@ public class ChangelogTask extends BaseTask {
 
             this.fileSets.add(fileSet);
         }
+    }
+
+    @SuppressWarnings("PMD.MethodArgumentCouldBeFinal")
+    public void setFileSets(Set<FileSet> fileSets) {
+        this.fileSets = fileSets;
     }
 
     @Override
