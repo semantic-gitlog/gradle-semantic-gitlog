@@ -1,19 +1,22 @@
 package team.yi.gradle.plugin;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
 import org.gradle.api.tasks.InputFile;
 
 import java.io.File;
 import java.io.Serializable;
 
-@NoArgsConstructor
-@AllArgsConstructor
 public class FileSet implements Serializable {
     private static final long serialVersionUID = -3010237214126366130L;
 
     private File template;
     private File target;
+
+    public FileSet(final File template, final File target) {
+        this.template = template;
+        this.target = target;
+    }
+
+    public FileSet() {}
 
     @InputFile
     public File getTemplate() {
