@@ -1,8 +1,8 @@
 {
   "nextVersion" : {
     "major" : 0,
-    "minor" : 6,
-    "patch" : 0,
+    "minor" : 5,
+    "patch" : 4,
     "preReleaseParts" : [ "SNAPSHOT" ],
     "buildMetaDataParts" : [ ],
     "preRelease" : "SNAPSHOT",
@@ -13,7 +13,7 @@
   "lastVersion" : {
     "major" : 0,
     "minor" : 5,
-    "patch" : 0,
+    "patch" : 3,
     "preReleaseParts" : [ ],
     "buildMetaDataParts" : [ ],
     "preRelease" : "",
@@ -25,6 +25,203 @@
     "version" : {
       "major" : 0,
       "minor" : 5,
+      "patch" : 3,
+      "preReleaseParts" : [ ],
+      "buildMetaDataParts" : [ ],
+      "preRelease" : "",
+      "buildMetaData" : "",
+      "initialDevelopment" : true,
+      "stable" : true
+    },
+    "releaseDate" : "2020-04-10 06:05:07.000 +0000",
+    "sections" : [ {
+      "title" : "Bug Fixes",
+      "commits" : [ {
+        "hashFull" : "72b2c562333063db772bc4ac30b20519153f056d",
+        "hash" : "72b2c562333063d",
+        "hash7" : "72b2c56",
+        "hash8" : "72b2c562",
+        "commitTime" : "2020-04-04 13:34:45.000 +0000",
+        "commitTimeLong" : 1586007285,
+        "message" : "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin\n\n------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2020-04-04 13:34:45.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2020-04-04 13:34:45.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ {
+          "commitHash" : "72b2c562333063db772bc4ac30b20519153f056d",
+          "lang" : "zh-cn",
+          "commitType" : null,
+          "commitScope" : null,
+          "subject" : "修复 gradle-kotlin 下的 `fileSets` 配置问题"
+        } ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/72b2c562333063db772bc4ac30b20519153f056d",
+        "commitType" : "fix",
+        "commitPackage" : "task/",
+        "commitScope" : "changelog",
+        "commitSubject" : "fix configuration issues for `fileSets` under gradle-kotlin",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "localeMap" : {
+          "zh-cn" : {
+            "commitHash" : "72b2c562333063db772bc4ac30b20519153f056d",
+            "lang" : "zh-cn",
+            "commitType" : null,
+            "commitScope" : null,
+            "subject" : "修复 gradle-kotlin 下的 `fileSets` 配置问题"
+          }
+        },
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "fix",
+        "rawCommitScope" : "changelog",
+        "rawCommitSubject" : "fix configuration issues for `fileSets` under gradle-kotlin",
+        "messageTitle" : "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题"
+      } ]
+    }, {
+      "title" : "Code Refactoring",
+      "commits" : [ {
+        "hashFull" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+        "hash" : "2b381fe2ad07532",
+        "hash7" : "2b381fe",
+        "hash8" : "2b381fe2",
+        "commitTime" : "2020-04-10 05:51:13.000 +0000",
+        "commitTimeLong" : 1586497873,
+        "message" : "refactor(model): remove lombok annotations from `FileSet`\n\n------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2020-04-10 05:51:13.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2020-04-10 05:51:13.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ {
+          "commitHash" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+          "lang" : "zh-cn",
+          "commitType" : null,
+          "commitScope" : null,
+          "subject" : "剔除 `FileSet` 的 lombok 注解"
+        } ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+        "commitType" : "refactor",
+        "commitPackage" : null,
+        "commitScope" : "model",
+        "commitSubject" : "remove lombok annotations from `FileSet`",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "localeMap" : {
+          "zh-cn" : {
+            "commitHash" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+            "lang" : "zh-cn",
+            "commitType" : null,
+            "commitScope" : null,
+            "subject" : "剔除 `FileSet` 的 lombok 注解"
+          }
+        },
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "refactor",
+        "rawCommitScope" : "model",
+        "rawCommitSubject" : "remove lombok annotations from `FileSet`",
+        "messageTitle" : "refactor(model): remove lombok annotations from `FileSet`",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解"
+      } ]
+    }, {
+      "title" : "Chores",
+      "commits" : [ {
+        "hashFull" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+        "hash" : "59fadf616d1d86a",
+        "hash7" : "59fadf6",
+        "hash8" : "59fadf61",
+        "commitTime" : "2020-04-04 14:17:17.000 +0000",
+        "commitTimeLong" : 1586009837,
+        "message" : "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`\n\n------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2020-04-04 14:15:10.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2020-04-04 14:17:17.000 +0000",
+          "name" : "ymind",
+          "email" : "ymind@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ {
+          "commitHash" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+          "lang" : "zh-cn",
+          "commitType" : null,
+          "commitScope" : null,
+          "subject" : "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
+        } ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+        "commitType" : "chore",
+        "commitPackage" : null,
+        "commitScope" : "deps",
+        "commitSubject" : "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "commitIssue" : null,
+        "localeMap" : {
+          "zh-cn" : {
+            "commitHash" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+            "lang" : "zh-cn",
+            "commitType" : null,
+            "commitScope" : null,
+            "subject" : "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
+          }
+        },
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitType" : "chore",
+        "rawCommitScope" : "deps",
+        "rawCommitSubject" : "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+        "messageTitle" : "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+        "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
+      } ]
+    } ]
+  }, {
+    "version" : {
+      "major" : 0,
+      "minor" : 5,
       "patch" : 0,
       "preReleaseParts" : [ ],
       "buildMetaDataParts" : [ ],
@@ -33,7 +230,7 @@
       "initialDevelopment" : true,
       "stable" : true
     },
-    "releaseDate" : "2020-03-28 15:23:59.000 +0000",
+    "releaseDate" : "2020-03-28 15:29:24.000 +0000",
     "sections" : [ {
       "title" : "Features",
       "commits" : [ {
@@ -66,12 +263,24 @@
           "commitType" : null,
           "commitScope" : null,
           "subject" : "实现主要功能"
+        }, {
+          "commitHash" : "d950193d",
+          "lang" : "zh-cn",
+          "commitType" : "feat",
+          "commitScope" : "task/changelog",
+          "subject" : "实现主要功能"
+        }, {
+          "commitHash" : "d950193d",
+          "lang" : "en",
+          "commitType" : "feat",
+          "commitScope" : "task/changelog",
+          "subject" : "implement primary features and challenges"
         } ],
         "defaultLang" : "en",
         "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/d950193d1249573fe78cb42182eb15699b96d72c",
         "commitType" : "feat",
         "commitPackage" : null,
-        "commitScope" : "service",
+        "commitScope" : "task/changelog",
         "commitSubject" : "implement primary features and challenges",
         "commitBody" : null,
         "attention" : false,
@@ -79,16 +288,23 @@
         "deprecated" : false,
         "commitIssue" : null,
         "localeMap" : {
+          "en" : {
+            "commitHash" : "d950193d",
+            "lang" : "en",
+            "commitType" : "feat",
+            "commitScope" : "task/changelog",
+            "subject" : "implement primary features and challenges"
+          },
           "zh-cn" : {
-            "commitHash" : "d950193d1249573fe78cb42182eb15699b96d72c",
+            "commitHash" : "d950193d",
             "lang" : "zh-cn",
-            "commitType" : null,
-            "commitScope" : null,
+            "commitType" : "feat",
+            "commitScope" : "task/changelog",
             "subject" : "实现主要功能"
           }
         },
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
+        "firstLocaleCommitType" : "feat",
+        "firstLocaleCommitScope" : "task/changelog",
         "rawCommitType" : "feat",
         "rawCommitScope" : "service",
         "rawCommitSubject" : "implement primary features and challenges",
