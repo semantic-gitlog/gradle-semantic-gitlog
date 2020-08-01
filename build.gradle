@@ -49,8 +49,8 @@ gradlePlugin {
 }
 
 pluginBundle {
-    website = 'https://github.com/ymind/gradle-semantic-gitlog'
-    vcsUrl = 'https://github.com/ymind/gradle-semantic-gitlog'
+    website = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
+    vcsUrl = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
     description = 'gradle-semantic-gitlog'
     tags = ['versioning', 'semantic-versioning', 'git', 'auto-versioning', 'version']
 
@@ -120,13 +120,13 @@ publishing {
             pom {
                 name = project.name
                 description = project.description
-                url = 'https://github.com/ymind/gradle-semantic-gitlog'
+                url = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
                 inceptionYear = '2020'
 
                 scm {
-                    url = 'https://github.com/ymind/gradle-semantic-gitlog'
-                    connection = 'scm:git:git@github.com:ymind/gradle-semantic-gitlog.git'
-                    developerConnection = 'scm:git:git@github.com:ymind/gradle-semantic-gitlog.git'
+                    url = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
+                    connection = 'scm:git:git@github.com:semantic-gitlog/gradle-semantic-gitlog.git'
+                    developerConnection = 'scm:git:git@github.com:semantic-gitlog/gradle-semantic-gitlog.git'
                 }
 
                 licenses {
@@ -154,12 +154,12 @@ publishing {
 
                 issueManagement {
                     system = 'GitHub'
-                    url = 'https://github.com/ymind/gradle-semantic-gitlog/issues'
+                    url = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog/issues'
                 }
 
                 ciManagement {
                     system = 'Travis-CI'
-                    url = 'https://travis-ci.org/ymind/gradle-semantic-gitlog'
+                    url = 'https://travis-ci.org/semantic-gitlog/gradle-semantic-gitlog'
                 }
             }
         }
@@ -223,8 +223,8 @@ changelog {
         "en"   : file("${rootDir}/config/gitlog/commit-scopes.md"),
         "zh-cn": file("${rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
-    issueUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/issues/:issueId"
-    commitUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/commit/:commitId"
+    issueUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/issues/:issueId"
+    commitUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/:commitId"
     mentionUrlTemplate = "https://github.com/:username"
 }
 

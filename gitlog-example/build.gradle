@@ -62,8 +62,8 @@ changelog {
         "en"   : file("${rootDir}/config/gitlog/commit-scopes.md"),
         "zh-cn": file("${rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
-    issueUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/issues/:issueId"
-    commitUrlTemplate = "https://github.com/ymind/gradle-semantic-gitlog/commit/:commitId"
+    issueUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/issues/:issueId"
+    commitUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/:commitId"
     mentionUrlTemplate = "https://github.com/:username"
 }
 
