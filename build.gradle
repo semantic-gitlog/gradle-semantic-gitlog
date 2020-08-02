@@ -29,9 +29,11 @@ repositories {
 dependencies {
     api gradleApi()
 
+    // https://mvnrepository.com/artifact/team.yi.tools/semantic-gitlog
     api 'team.yi.tools:semantic-gitlog:0.5.11'
 
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.2'
 }
 
 lombok {
