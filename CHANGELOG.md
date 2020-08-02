@@ -1,10 +1,11 @@
 # Changelog
 
-## 0.5.11 (2020-08-02)
+## 0.5.12 (2020-08-02)
 
 ### Documentation
 
 - **docs**: update docs ([429a89a2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/429a89a2dad1f9a9cd6c7b13baa8417fce19d261))
+- **docs**: update docs ([f70b56e2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/f70b56e2888338dd3fe1a95b49e94085c1f2bb0e))
 
 
 ### Styles
@@ -21,6 +22,11 @@
 - **deps**: bump junit-jupiter from 5.6.1 to 5.6.2 ([5839b561](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/5839b56129701571f8271afa121473c7660208bd))
 - **deps**: bump checkstyle from 8.30 to 8.35 ([b99c7f87](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/b99c7f871d302185524f3e1d5656fac4656b445e))
 - **deps**: bump pmd from 6.22.0 to 6.26.0 ([3cd2939f](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/3cd2939fb61046db4a0eb2cabfe5c03dffbdd3ea))
+
+
+### Continuous Integration
+
+- **github**: add github workflows ([2b717f48](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/2b717f4845f504e53bea87ec43ef7e5959d1e469))
 
 
 ## 0.5.3 (2020-04-16)

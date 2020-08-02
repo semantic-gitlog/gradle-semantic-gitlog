@@ -38,5 +38,5 @@ pom.xml.versionsBackup
 ### CUSTOM CONFIG ###
 .gradle
 .okhttpcache
-.travis/secret.gpg
-.travis/secret.gpg
+secret.gpg
+secret.gpg.*

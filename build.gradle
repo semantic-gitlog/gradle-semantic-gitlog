@@ -160,32 +160,34 @@ publishing {
                 }
 
                 ciManagement {
-                    system = 'Travis-CI'
-                    url = 'https://travis-ci.org/semantic-gitlog/gradle-semantic-gitlog'
+                    system = 'GitHub'
+                    url = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog/actions'
                 }
             }
         }
     }
 
     repositories {
-        mavenLocal()
         maven {
-            // def releasesRepoUrl = "https://repo.114xp.cn/repository/maven-releases/"
             def releasesRepoUrl = "https://oss.sonatype.org/service/local/staging/deploy/maven2"
             def snapshotsRepoUrl = "https://oss.sonatype.org/content/repositories/snapshots"
 
             url = version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl
 
             credentials {
-                username = "${NEXUS_USERNAME}"
-                password = "${NEXUS_PASSWORD}"
+                username = System.getenv("OSSRH_USERNAME") ?: "${project.properties["OSSRH_USERNAME"]}"
+                password = System.getenv("OSSRH_TOKEN") ?: "${project.properties["OSSRH_TOKEN"]}"
             }
         }
     }
 }
 
 signing {
-    sign publishing.publications.mavenJava
+    project.ext.set("signing.keyId", System.getenv("OSSRH_GPG_SECRET_ID") ?: "${project.properties["OSSRH_GPG_SECRET_ID"]}")
+    project.ext.set("signing.secretKeyRingFile", System.getenv("OSSRH_GPG_SECRET_KEY") ?: "${project.properties["OSSRH_GPG_SECRET_KEY"]}")
+    project.ext.set("signing.password", System.getenv("OSSRH_GPG_SECRET_PASSWORD") ?: "${project.properties["OSSRH_GPG_SECRET_PASSWORD"]}")
+
+    sign(publishing.publications.getByName("mavenJava"))
 }
 
 // ./gradlew setNewVersion -P newVersion=2.1.3
