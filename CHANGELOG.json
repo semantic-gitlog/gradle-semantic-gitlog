@@ -1,5 +1,16 @@
 {
-  "nextVersion" : {
+  "nextVersion": {
+    "major": 0,
+    "minor": 5,
+    "patch": 13,
+    "preReleaseParts": [],
+    "buildMetaDataParts": [],
+    "preRelease": "",
+    "buildMetaData": "",
+    "stable": true,
+    "initialDevelopment": true
+  },
+  "lastVersion": {
     "major": 0,
     "minor": 5,
     "patch": 12,
@@ -7,24 +18,23 @@
     "buildMetaDataParts": [],
     "preRelease": "",
     "buildMetaData": "",
-    "initialDevelopment": true,
-    "stable": true
-  },
-  "lastVersion" : {
-    "major": 0,
-    "minor": 5,
-    "patch": 3,
-    "preReleaseParts": [],
-    "buildMetaDataParts": [],
-    "preRelease": "",
-    "buildMetaData": "",
-    "initialDevelopment": true,
-    "stable": true
+    "stable": true,
+    "initialDevelopment": true
   },
   "tags": [
     {
-      "version": null,
-      "releaseDate": null,
+      "version": {
+        "major": 0,
+        "minor": 5,
+        "patch": 12,
+        "preReleaseParts": [],
+        "buildMetaDataParts": [],
+        "preRelease": "",
+        "buildMetaData": "",
+        "stable": true,
+        "initialDevelopment": true
+      },
+      "releaseDate": "2020-08-02 14:21:15.000 +0800",
       "sections": [
         {
           "title": "Documentation",
@@ -72,11 +82,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "update docs",
-              "firstLocaleCommitScope": null,
-              "rawCommitScope": "docs",
-              "commitIssue": null,
+              "rawCommitType": "docs",
               "localeMap": {
                 "zh-cn": {
                   "commitHash": "429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
@@ -86,7 +92,11 @@
                   "subject": "更新说明文档"
                 }
               },
-              "rawCommitType": "docs",
+              "commitIssue": null,
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "docs",
+              "rawCommitSubject": "update docs",
+              "firstLocaleCommitType": null,
               "messageTitle": "docs(docs): update docs",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 更新说明文档"
             },
@@ -125,13 +135,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "update docs",
+              "rawCommitType": "docs",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "docs",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "docs",
+              "rawCommitSubject": "update docs",
+              "firstLocaleCommitType": null,
               "messageTitle": "docs(docs): update docs",
               "messageBody": ""
             }
@@ -175,13 +185,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "update .editorconfig, disable .mustache file indent",
+              "rawCommitType": "style",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "editorconfig",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "style",
+              "rawCommitSubject": "update .editorconfig, disable .mustache file indent",
+              "firstLocaleCommitType": null,
               "messageTitle": "style(editorconfig): update .editorconfig, disable .mustache file indent",
               "messageBody": ""
             }
@@ -233,11 +243,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump `semantic-gitlog` to `0.5.11`",
-              "firstLocaleCommitScope": null,
-              "rawCommitScope": "deps",
-              "commitIssue": null,
+              "rawCommitType": "chore",
               "localeMap": {
                 "zh-cn": {
                   "commitHash": "fe397c820b10a691509600aa82b3f981d15aa49e",
@@ -247,7 +253,11 @@
                   "subject": "更新 `semantic-gitlog` 至 `0.5.11`"
                 }
               },
-              "rawCommitType": "chore",
+              "commitIssue": null,
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "rawCommitSubject": "bump `semantic-gitlog` to `0.5.11`",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump `semantic-gitlog` to `0.5.11`",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 更新 `semantic-gitlog` 至 `0.5.11`"
             },
@@ -286,13 +296,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
               "messageBody": ""
             },
@@ -331,13 +341,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump io.freefair.lombok from 4.1.6 to 5.1.0",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump io.freefair.lombok from 4.1.6 to 5.1.0",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0",
               "messageBody": ""
             },
@@ -376,13 +386,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
               "messageBody": ""
             },
@@ -421,13 +431,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump junit-jupiter from 5.6.1 to 5.6.2",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump junit-jupiter from 5.6.1 to 5.6.2",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump junit-jupiter from 5.6.1 to 5.6.2",
               "messageBody": ""
             },
@@ -466,13 +476,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump checkstyle from 8.30 to 8.35",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump checkstyle from 8.30 to 8.35",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump checkstyle from 8.30 to 8.35",
               "messageBody": ""
             },
@@ -511,13 +521,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bump pmd from 6.22.0 to 6.26.0",
+              "rawCommitType": "chore",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "deps",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "chore",
+              "rawCommitSubject": "bump pmd from 6.22.0 to 6.26.0",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bump pmd from 6.22.0 to 6.26.0",
               "messageBody": ""
             }
@@ -527,12 +537,12 @@
           "title": "Continuous Integration",
           "commits": [
             {
-              "hashFull": "2b717f4845f504e53bea87ec43ef7e5959d1e469",
-              "hash": "2b717f4845f504e",
-              "hash7": "2b717f4",
-              "hash8": "2b717f48",
-              "commitTime": "2020-08-02 12:35:12.000 +0800",
-              "commitTimeLong": 1596342912,
+              "hashFull": "24553b126b82e4c0412d4ad8c99aceb7686e2594",
+              "hash": "24553b126b82e4c",
+              "hash7": "24553b1",
+              "hash8": "24553b12",
+              "commitTime": "2020-08-02 14:15:14.000 +0800",
+              "commitTimeLong": 1596348914,
               "message": "ci(github): add github workflows\n",
               "merge": false,
               "authorIdent": {
@@ -541,7 +551,7 @@
                 "email": "ymind@yi.team"
               },
               "committerIdent": {
-                "when": "2020-08-02 12:35:12.000 +0800",
+                "when": "2020-08-02 14:15:14.000 +0800",
                 "name": "ymind",
                 "email": "ymind@yi.team"
               },
@@ -552,7 +562,7 @@
               "mentions": [],
               "locales": [],
               "defaultLang": "en",
-              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/2b717f4845f504e53bea87ec43ef7e5959d1e469",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/24553b126b82e4c0412d4ad8c99aceb7686e2594",
               "commitType": "ci",
               "commitPackage": null,
               "commitScope": "github",
@@ -561,13 +571,13 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "add github workflows",
+              "rawCommitType": "ci",
+              "localeMap": null,
+              "commitIssue": null,
               "firstLocaleCommitScope": null,
               "rawCommitScope": "github",
-              "commitIssue": null,
-              "localeMap": null,
-              "rawCommitType": "ci",
+              "rawCommitSubject": "add github workflows",
+              "firstLocaleCommitType": null,
               "messageTitle": "ci(github): add github workflows",
               "messageBody": ""
             }
@@ -584,8 +594,8 @@
         "buildMetaDataParts": [],
         "preRelease": "",
         "buildMetaData": "",
-        "initialDevelopment": true,
-        "stable": true
+        "stable": true,
+        "initialDevelopment": true
       },
       "releaseDate": "2020-04-16 10:34:09.000 +0800",
       "sections": [
@@ -635,11 +645,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "fix configuration issues for `fileSets` under gradle-kotlin",
-              "firstLocaleCommitScope": null,
-              "rawCommitScope": "changelog",
-              "commitIssue": null,
+              "rawCommitType": "fix",
               "localeMap": {
                 "zh-cn": {
                   "commitHash": "72b2c562333063db772bc4ac30b20519153f056d",
@@ -649,11 +655,16 @@
                   "subject": "修复 gradle-kotlin 下的 `fileSets` 配置问题"
                 }
               },
-              "rawCommitType": "fix",
+              "commitIssue": null,
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "changelog",
+              "rawCommitSubject": "fix configuration issues for `fileSets` under gradle-kotlin",
+              "firstLocaleCommitType": null,
               "messageTitle": "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题"
-            } ]
-    },
+            }
+          ]
+        },
         {
           "title": "Code Refactoring",
           "commits": [
@@ -700,11 +711,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "remove lombok annotations from `FileSet`",
-              "firstLocaleCommitScope": null,
-              "rawCommitScope": "model",
-              "commitIssue": null,
+              "rawCommitType": "refactor",
               "localeMap": {
                 "zh-cn": {
                   "commitHash": "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
@@ -714,11 +721,16 @@
                   "subject": "剔除 `FileSet` 的 lombok 注解"
                 }
               },
-              "rawCommitType": "refactor",
+              "commitIssue": null,
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "model",
+              "rawCommitSubject": "remove lombok annotations from `FileSet`",
+              "firstLocaleCommitType": null,
               "messageTitle": "refactor(model): remove lombok annotations from `FileSet`",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解"
-            } ]
-    },
+            }
+          ]
+        },
         {
           "title": "Chores",
           "commits": [
@@ -765,11 +777,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": null,
-              "rawCommitSubject": "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
-              "firstLocaleCommitScope": null,
-              "rawCommitScope": "deps",
-              "commitIssue": null,
+              "rawCommitType": "chore",
               "localeMap": {
                 "zh-cn": {
                   "commitHash": "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
@@ -779,23 +787,30 @@
                   "subject": "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
                 }
               },
-              "rawCommitType": "chore",
+              "commitIssue": null,
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "rawCommitSubject": "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+              "firstLocaleCommitType": null,
               "messageTitle": "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
-            } ]
-    } ]
-  }, {
-    "version" : {
-      "major": 0,
-      "minor": 5,
-      "patch": 0,
-      "preReleaseParts": [],
-      "buildMetaDataParts": [],
-      "preRelease": "",
-      "buildMetaData": "",
-      "initialDevelopment": true,
-      "stable": true
+            }
+          ]
+        }
+      ]
     },
+    {
+      "version": {
+        "major": 0,
+        "minor": 5,
+        "patch": 0,
+        "preReleaseParts": [],
+        "buildMetaDataParts": [],
+        "preRelease": "",
+        "buildMetaData": "",
+        "stable": true,
+        "initialDevelopment": true
+      },
       "releaseDate": "2020-03-28 23:29:24.000 +0800",
       "sections": [
         {
@@ -858,11 +873,7 @@
               "attention": false,
               "breakingChange": false,
               "deprecated": false,
-              "firstLocaleCommitType": "feat",
-              "rawCommitSubject": "implement primary features and challenges",
-              "firstLocaleCommitScope": "task/changelog",
-              "rawCommitScope": "service",
-              "commitIssue": null,
+              "rawCommitType": "feat",
               "localeMap": {
                 "en": {
                   "commitHash": "d950193d",
@@ -879,10 +890,17 @@
                   "subject": "实现主要功能"
                 }
               },
-              "rawCommitType": "feat",
+              "commitIssue": null,
+              "firstLocaleCommitScope": "task/changelog",
+              "rawCommitScope": "service",
+              "rawCommitSubject": "implement primary features and challenges",
+              "firstLocaleCommitType": "feat",
               "messageTitle": "feat(service): implement primary features and challenges",
               "messageBody": "------------\n# Locales\n- **[zh-cn]** 实现主要功能"
-      } ]
-    } ]
-  } ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

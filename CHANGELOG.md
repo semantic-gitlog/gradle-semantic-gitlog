@@ -26,7 +26,7 @@
 
 ### Continuous Integration
 
-- **github**: add github workflows ([2b717f48](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/2b717f4845f504e53bea87ec43ef7e5959d1e469))
+- **github**: add github workflows ([24553b12](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/24553b126b82e4c0412d4ad8c99aceb7686e2594))
 
 
 ## 0.5.3 (2020-04-16)
