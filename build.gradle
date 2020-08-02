@@ -188,8 +188,8 @@ signing {
     sign publishing.publications.mavenJava
 }
 
-// ./gradlew setVersion -P newVersion=2.1.3
-task setVersion {
+// ./gradlew setNewVersion -P newVersion=2.1.3
+task setNewVersion {
     println version
 
     if (project.hasProperty('newVersion')) {
@@ -202,9 +202,7 @@ task setVersion {
 }
 
 changelog {
-    toRef = "dev"
-    isUnstable = true
-    preRelease = 'SNAPSHOT'
+    toRef = "master"
 
     jsonFile = file("${rootDir}/CHANGELOG.json")
     fileSets = [
@@ -228,12 +226,12 @@ changelog {
     issueUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/issues/:issueId"
     commitUrlTemplate = "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/:commitId"
     mentionUrlTemplate = "https://github.com/:username"
+
+    outputs.upToDateWhen { false }
 }
 
 derive {
-    toRef = "dev"
-    isUnstable = true
-    preRelease = 'SNAPSHOT'
+    toRef = "master"
     derivedVersionMark = "NEXT_VERSION:=="
 
     commitLocales = [
@@ -244,4 +242,6 @@ derive {
         "en"   : file("${rootDir}/config/gitlog/commit-scopes.md"),
         "zh-cn": file("${rootDir}/config/gitlog/commit-scopes.zh-cn.md")
     ]
+
+    outputs.upToDateWhen { false }
 }

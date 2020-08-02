@@ -8,15 +8,11 @@ import team.yi.tools.semanticgitlog.config.GitlogSettings;
 import team.yi.tools.semanticgitlog.git.GitRepo;
 import team.yi.tools.semanticgitlog.model.ReleaseLog;
 import team.yi.tools.semanticgitlog.render.MustacheGitlogRender;
-import team.yi.tools.semanticgitlog.service.CommitLocaleService;
-import team.yi.tools.semanticgitlog.service.GitlogService;
-import team.yi.tools.semanticgitlog.service.ScopeProfileService;
+import team.yi.tools.semanticgitlog.service.*;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 @Slf4j
 public class ChangelogTask extends BaseTask {

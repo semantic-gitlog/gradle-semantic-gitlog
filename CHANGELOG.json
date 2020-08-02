@@ -1,14 +1,14 @@
 {
   "nextVersion" : {
-    "major" : 0,
-    "minor" : 5,
-    "patch" : 4,
-    "preReleaseParts" : [ "SNAPSHOT" ],
-    "buildMetaDataParts" : [ ],
-    "preRelease" : "SNAPSHOT",
-    "buildMetaData" : "",
-    "initialDevelopment" : true,
-    "stable" : false
+    "major": 0,
+    "minor": 5,
+    "patch": 11,
+    "preReleaseParts": [],
+    "buildMetaDataParts": [],
+    "preRelease": "",
+    "buildMetaData": "",
+    "initialDevelopment": true,
+    "stable": true
   },
   "lastVersion" : {
     "major" : 0,
@@ -21,237 +21,708 @@
     "initialDevelopment" : true,
     "stable" : true
   },
-  "tags" : [ {
-    "version" : {
-      "major" : 0,
-      "minor" : 5,
-      "patch" : 3,
-      "preReleaseParts" : [ ],
-      "buildMetaDataParts" : [ ],
-      "preRelease" : "",
-      "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+  "tags" : [
+    {
+      "version": null,
+      "releaseDate": null,
+      "sections": [
+        {
+          "title": "Documentation",
+          "commits": [
+            {
+              "hashFull": "429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
+              "hash": "429a89a2dad1f9a",
+              "hash7": "429a89a",
+              "hash8": "429a89a2",
+              "commitTime": "2020-08-01 22:30:35.000 +0800",
+              "commitTimeLong": 1596292235,
+              "message": "docs(docs): update docs\n\n------------\n# Locales\n- **[zh-cn]** 更新说明文档\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-01 22:30:35.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-01 22:30:35.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [
+                {
+                  "commitHash": "429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "更新说明文档"
+                }
+              ],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
+              "commitType": "docs",
+              "commitPackage": null,
+              "commitScope": "docs",
+              "commitSubject": "update docs",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "update docs",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "docs",
+              "commitIssue": null,
+              "localeMap": {
+                "zh-cn": {
+                  "commitHash": "429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "更新说明文档"
+                }
+              },
+              "rawCommitType": "docs",
+              "messageTitle": "docs(docs): update docs",
+              "messageBody": "------------\n# Locales\n- **[zh-cn]** 更新说明文档"
+            }
+          ]
+        },
+        {
+          "title": "Styles",
+          "commits": [
+            {
+              "hashFull": "bdb1a120243429a17866e6c333a1ab54ca5d216c",
+              "hash": "bdb1a120243429a",
+              "hash7": "bdb1a12",
+              "hash8": "bdb1a120",
+              "commitTime": "2020-08-01 21:24:28.000 +0800",
+              "commitTimeLong": 1596288268,
+              "message": "style(editorconfig): update .editorconfig, disable .mustache file indent\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-01 21:24:28.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-01 21:24:28.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/bdb1a120243429a17866e6c333a1ab54ca5d216c",
+              "commitType": "style",
+              "commitPackage": null,
+              "commitScope": "editorconfig",
+              "commitSubject": "update .editorconfig, disable .mustache file indent",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "update .editorconfig, disable .mustache file indent",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "editorconfig",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "style",
+              "messageTitle": "style(editorconfig): update .editorconfig, disable .mustache file indent",
+              "messageBody": ""
+            }
+          ]
+        },
+        {
+          "title": "Chores",
+          "commits": [
+            {
+              "hashFull": "fe397c820b10a691509600aa82b3f981d15aa49e",
+              "hash": "fe397c820b10a69",
+              "hash7": "fe397c8",
+              "hash8": "fe397c82",
+              "commitTime": "2020-08-02 11:37:53.000 +0800",
+              "commitTimeLong": 1596339473,
+              "message": "chore(deps): bump `semantic-gitlog` to `0.5.11`\n\n------------\n# Locales\n- **[zh-cn]** 更新 `semantic-gitlog` 至 `0.5.11`\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:37:53.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:37:53.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [
+                {
+                  "commitHash": "fe397c820b10a691509600aa82b3f981d15aa49e",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "更新 `semantic-gitlog` 至 `0.5.11`"
+                }
+              ],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/fe397c820b10a691509600aa82b3f981d15aa49e",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump `semantic-gitlog` to `0.5.11`",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump `semantic-gitlog` to `0.5.11`",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": {
+                "zh-cn": {
+                  "commitHash": "fe397c820b10a691509600aa82b3f981d15aa49e",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "更新 `semantic-gitlog` 至 `0.5.11`"
+                }
+              },
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump `semantic-gitlog` to `0.5.11`",
+              "messageBody": "------------\n# Locales\n- **[zh-cn]** 更新 `semantic-gitlog` 至 `0.5.11`"
+            },
+            {
+              "hashFull": "423a1b539c7c0e05771fc5685ba97dac49f96bcc",
+              "hash": "423a1b539c7c0e0",
+              "hash7": "423a1b5",
+              "hash8": "423a1b53",
+              "commitTime": "2020-08-02 11:39:57.000 +0800",
+              "commitTimeLong": 1596339597,
+              "message": "chore(deps): bump com.gradle.plugin-publish from 0.11.0 to 0.12.0\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:39:57.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:39:57.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/423a1b539c7c0e05771fc5685ba97dac49f96bcc",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+              "messageBody": ""
+            },
+            {
+              "hashFull": "c1733857d93e20622cf7aa73f99734685712aec8",
+              "hash": "c1733857d93e206",
+              "hash7": "c173385",
+              "hash8": "c1733857",
+              "commitTime": "2020-08-02 11:40:17.000 +0800",
+              "commitTimeLong": 1596339617,
+              "message": "chore(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:40:17.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:40:17.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/c1733857d93e20622cf7aa73f99734685712aec8",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump io.freefair.lombok from 4.1.6 to 5.1.0",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump io.freefair.lombok from 4.1.6 to 5.1.0",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0",
+              "messageBody": ""
+            },
+            {
+              "hashFull": "2b523478bf7674d834db4ac0b6f01895da5a28d5",
+              "hash": "2b523478bf7674d",
+              "hash7": "2b52347",
+              "hash8": "2b523478",
+              "commitTime": "2020-08-02 11:40:53.000 +0800",
+              "commitTimeLong": 1596339653,
+              "message": "chore(deps): bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:40:53.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:40:53.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/2b523478bf7674d834db4ac0b6f01895da5a28d5",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+              "messageBody": ""
+            },
+            {
+              "hashFull": "5839b56129701571f8271afa121473c7660208bd",
+              "hash": "5839b5612970157",
+              "hash7": "5839b56",
+              "hash8": "5839b561",
+              "commitTime": "2020-08-02 11:42:20.000 +0800",
+              "commitTimeLong": 1596339740,
+              "message": "chore(deps): bump junit-jupiter from 5.6.1 to 5.6.2\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:42:20.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:42:20.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/5839b56129701571f8271afa121473c7660208bd",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump junit-jupiter from 5.6.1 to 5.6.2",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump junit-jupiter from 5.6.1 to 5.6.2",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump junit-jupiter from 5.6.1 to 5.6.2",
+              "messageBody": ""
+            },
+            {
+              "hashFull": "b99c7f871d302185524f3e1d5656fac4656b445e",
+              "hash": "b99c7f871d30218",
+              "hash7": "b99c7f8",
+              "hash8": "b99c7f87",
+              "commitTime": "2020-08-02 11:44:56.000 +0800",
+              "commitTimeLong": 1596339896,
+              "message": "chore(deps): bump checkstyle from 8.30 to 8.35\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:44:56.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:44:56.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/b99c7f871d302185524f3e1d5656fac4656b445e",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump checkstyle from 8.30 to 8.35",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump checkstyle from 8.30 to 8.35",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump checkstyle from 8.30 to 8.35",
+              "messageBody": ""
+            },
+            {
+              "hashFull": "3cd2939fb61046db4a0eb2cabfe5c03dffbdd3ea",
+              "hash": "3cd2939fb61046d",
+              "hash7": "3cd2939",
+              "hash8": "3cd2939f",
+              "commitTime": "2020-08-02 11:45:28.000 +0800",
+              "commitTimeLong": 1596339928,
+              "message": "chore(deps): bump pmd from 6.22.0 to 6.26.0\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-08-02 11:45:28.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-08-02 11:45:28.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "quickActions": {},
+              "closeIssues": [],
+              "subjectIssues": [],
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/3cd2939fb61046db4a0eb2cabfe5c03dffbdd3ea",
+              "commitType": "chore",
+              "commitPackage": null,
+              "commitScope": "deps",
+              "commitSubject": "bump pmd from 6.22.0 to 6.26.0",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "bump pmd from 6.22.0 to 6.26.0",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "deps",
+              "commitIssue": null,
+              "localeMap": null,
+              "rawCommitType": "chore",
+              "messageTitle": "chore(deps): bump pmd from 6.22.0 to 6.26.0",
+              "messageBody": ""
+            }
+          ]
+        }
+      ]
     },
-    "releaseDate" : "2020-04-10 06:05:07.000 +0000",
-    "sections" : [ {
-      "title" : "Bug Fixes",
-      "commits" : [ {
-        "hashFull" : "72b2c562333063db772bc4ac30b20519153f056d",
-        "hash" : "72b2c562333063d",
-        "hash7" : "72b2c56",
-        "hash8" : "72b2c562",
-        "commitTime" : "2020-04-04 13:34:45.000 +0000",
-        "commitTimeLong" : 1586007285,
-        "message" : "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin\n\n------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2020-04-04 13:34:45.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2020-04-04 13:34:45.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
+    {
+      "version": {
+        "major": 0,
+        "minor": 5,
+        "patch": 3,
+        "preReleaseParts": [],
+        "buildMetaDataParts": [],
+        "preRelease": "",
+        "buildMetaData": "",
+        "initialDevelopment": true,
+        "stable": true
+      },
+      "releaseDate": "2020-04-16 10:34:09.000 +0800",
+      "sections": [
+        {
+          "title": "Bug Fixes",
+          "commits": [
+            {
+              "hashFull": "72b2c562333063db772bc4ac30b20519153f056d",
+              "hash": "72b2c562333063d",
+              "hash7": "72b2c56",
+              "hash8": "72b2c562",
+              "commitTime": "2020-04-04 21:34:45.000 +0800",
+              "commitTimeLong": 1586007285,
+              "message": "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin\n\n------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-04-04 21:34:45.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-04-04 21:34:45.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
         "quickActions" : { },
         "closeIssues" : [ ],
         "subjectIssues" : [ ],
-        "bodyIssues" : [ ],
-        "mentions" : [ ],
-        "locales" : [ {
-          "commitHash" : "72b2c562333063db772bc4ac30b20519153f056d",
-          "lang" : "zh-cn",
-          "commitType" : null,
-          "commitScope" : null,
-          "subject" : "修复 gradle-kotlin 下的 `fileSets` 配置问题"
-        } ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/72b2c562333063db772bc4ac30b20519153f056d",
-        "commitType" : "fix",
-        "commitPackage" : "task/",
-        "commitScope" : "changelog",
-        "commitSubject" : "fix configuration issues for `fileSets` under gradle-kotlin",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : {
-          "zh-cn" : {
-            "commitHash" : "72b2c562333063db772bc4ac30b20519153f056d",
-            "lang" : "zh-cn",
-            "commitType" : null,
-            "commitScope" : null,
-            "subject" : "修复 gradle-kotlin 下的 `fileSets` 配置问题"
-          }
-        },
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
+              "bodyIssues": [],
+              "mentions": [],
+              "locales": [
+                {
+                  "commitHash": "72b2c562333063db772bc4ac30b20519153f056d",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "修复 gradle-kotlin 下的 `fileSets` 配置问题"
+                }
+              ],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/72b2c562333063db772bc4ac30b20519153f056d",
+              "commitType": "fix",
+              "commitPackage": "task/",
+              "commitScope": "changelog",
+              "commitSubject": "fix configuration issues for `fileSets` under gradle-kotlin",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": null,
+              "rawCommitSubject": "fix configuration issues for `fileSets` under gradle-kotlin",
+              "firstLocaleCommitScope": null,
+              "rawCommitScope": "changelog",
+              "commitIssue": null,
+              "localeMap": {
+                "zh-cn": {
+                  "commitHash": "72b2c562333063db772bc4ac30b20519153f056d",
+                  "lang": "zh-cn",
+                  "commitType": null,
+                  "commitScope": null,
+                  "subject": "修复 gradle-kotlin 下的 `fileSets` 配置问题"
+                }
+              },
         "rawCommitType" : "fix",
-        "rawCommitScope" : "changelog",
-        "rawCommitSubject" : "fix configuration issues for `fileSets` under gradle-kotlin",
         "messageTitle" : "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题"
       } ]
     }, {
       "title" : "Code Refactoring",
-      "commits" : [ {
-        "hashFull" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
-        "hash" : "2b381fe2ad07532",
-        "hash7" : "2b381fe",
-        "hash8" : "2b381fe2",
-        "commitTime" : "2020-04-10 05:51:13.000 +0000",
-        "commitTimeLong" : 1586497873,
-        "message" : "refactor(model): remove lombok annotations from `FileSet`\n\n------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2020-04-10 05:51:13.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2020-04-10 05:51:13.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
+      "commits" : [
+        {
+          "hashFull": "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+          "hash": "2b381fe2ad07532",
+          "hash7": "2b381fe",
+          "hash8": "2b381fe2",
+          "commitTime": "2020-04-10 13:51:13.000 +0800",
+          "commitTimeLong": 1586497873,
+          "message": "refactor(model): remove lombok annotations from `FileSet`\n\n------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解\n",
+          "merge": false,
+          "authorIdent": {
+            "when": "2020-04-10 13:51:13.000 +0800",
+            "name": "ymind",
+            "email": "ymind@yi.team"
+          },
+          "committerIdent": {
+            "when": "2020-04-10 13:51:13.000 +0800",
+            "name": "ymind",
+            "email": "ymind@yi.team"
+          },
         "quickActions" : { },
         "closeIssues" : [ ],
         "subjectIssues" : [ ],
-        "bodyIssues" : [ ],
-        "mentions" : [ ],
-        "locales" : [ {
-          "commitHash" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
-          "lang" : "zh-cn",
-          "commitType" : null,
-          "commitScope" : null,
-          "subject" : "剔除 `FileSet` 的 lombok 注解"
-        } ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/2b381fe2ad07532c06e239c2ab0cda613b736e0b",
-        "commitType" : "refactor",
-        "commitPackage" : null,
-        "commitScope" : "model",
-        "commitSubject" : "remove lombok annotations from `FileSet`",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : {
-          "zh-cn" : {
-            "commitHash" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
-            "lang" : "zh-cn",
-            "commitType" : null,
-            "commitScope" : null,
-            "subject" : "剔除 `FileSet` 的 lombok 注解"
-          }
-        },
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
+          "bodyIssues": [],
+          "mentions": [],
+          "locales": [
+            {
+              "commitHash": "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+              "lang": "zh-cn",
+              "commitType": null,
+              "commitScope": null,
+              "subject": "剔除 `FileSet` 的 lombok 注解"
+            }
+          ],
+          "defaultLang": "en",
+          "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+          "commitType": "refactor",
+          "commitPackage": null,
+          "commitScope": "model",
+          "commitSubject": "remove lombok annotations from `FileSet`",
+          "commitBody": null,
+          "attention": false,
+          "breakingChange": false,
+          "deprecated": false,
+          "firstLocaleCommitType": null,
+          "rawCommitSubject": "remove lombok annotations from `FileSet`",
+          "firstLocaleCommitScope": null,
+          "rawCommitScope": "model",
+          "commitIssue": null,
+          "localeMap": {
+            "zh-cn": {
+              "commitHash": "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
+              "lang": "zh-cn",
+              "commitType": null,
+              "commitScope": null,
+              "subject": "剔除 `FileSet` 的 lombok 注解"
+            }
+          },
         "rawCommitType" : "refactor",
-        "rawCommitScope" : "model",
-        "rawCommitSubject" : "remove lombok annotations from `FileSet`",
         "messageTitle" : "refactor(model): remove lombok annotations from `FileSet`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解"
       } ]
     }, {
       "title" : "Chores",
-      "commits" : [ {
-        "hashFull" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
-        "hash" : "59fadf616d1d86a",
-        "hash7" : "59fadf6",
-        "hash8" : "59fadf61",
-        "commitTime" : "2020-04-04 14:17:17.000 +0000",
-        "commitTimeLong" : 1586009837,
-        "message" : "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`\n\n------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2020-04-04 14:15:10.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2020-04-04 14:17:17.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
+      "commits" : [
+        {
+          "hashFull": "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+          "hash": "59fadf616d1d86a",
+          "hash7": "59fadf6",
+          "hash8": "59fadf61",
+          "commitTime": "2020-04-04 22:17:17.000 +0800",
+          "commitTimeLong": 1586009837,
+          "message": "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`\n\n------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`\n",
+          "merge": false,
+          "authorIdent": {
+            "when": "2020-04-04 22:15:10.000 +0800",
+            "name": "ymind",
+            "email": "ymind@yi.team"
+          },
+          "committerIdent": {
+            "when": "2020-04-04 22:17:17.000 +0800",
+            "name": "ymind",
+            "email": "ymind@yi.team"
+          },
         "quickActions" : { },
         "closeIssues" : [ ],
         "subjectIssues" : [ ],
-        "bodyIssues" : [ ],
-        "mentions" : [ ],
-        "locales" : [ {
-          "commitHash" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
-          "lang" : "zh-cn",
-          "commitType" : null,
-          "commitScope" : null,
-          "subject" : "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
-        } ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/59fadf616d1d86abbf1da954819438dd2b7ed7f7",
-        "commitType" : "chore",
-        "commitPackage" : null,
-        "commitScope" : "deps",
-        "commitSubject" : "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : {
-          "zh-cn" : {
-            "commitHash" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
-            "lang" : "zh-cn",
-            "commitType" : null,
-            "commitScope" : null,
-            "subject" : "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
-          }
-        },
-        "firstLocaleCommitType" : null,
-        "firstLocaleCommitScope" : null,
+          "bodyIssues": [],
+          "mentions": [],
+          "locales": [
+            {
+              "commitHash": "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+              "lang": "zh-cn",
+              "commitType": null,
+              "commitScope": null,
+              "subject": "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
+            }
+          ],
+          "defaultLang": "en",
+          "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+          "commitType": "chore",
+          "commitPackage": null,
+          "commitScope": "deps",
+          "commitSubject": "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+          "commitBody": null,
+          "attention": false,
+          "breakingChange": false,
+          "deprecated": false,
+          "firstLocaleCommitType": null,
+          "rawCommitSubject": "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+          "firstLocaleCommitScope": null,
+          "rawCommitScope": "deps",
+          "commitIssue": null,
+          "localeMap": {
+            "zh-cn": {
+              "commitHash": "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
+              "lang": "zh-cn",
+              "commitType": null,
+              "commitScope": null,
+              "subject": "更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
+            }
+          },
         "rawCommitType" : "chore",
-        "rawCommitScope" : "deps",
-        "rawCommitSubject" : "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
         "messageTitle" : "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
       } ]
     } ]
   }, {
     "version" : {
-      "major" : 0,
-      "minor" : 5,
-      "patch" : 0,
-      "preReleaseParts" : [ ],
-      "buildMetaDataParts" : [ ],
-      "preRelease" : "",
-      "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "major": 0,
+      "minor": 5,
+      "patch": 0,
+      "preReleaseParts": [],
+      "buildMetaDataParts": [],
+      "preRelease": "",
+      "buildMetaData": "",
+      "initialDevelopment": true,
+      "stable": true
     },
-    "releaseDate" : "2020-03-28 15:29:24.000 +0000",
-    "sections" : [ {
-      "title" : "Features",
-      "commits" : [ {
-        "hashFull" : "d950193d1249573fe78cb42182eb15699b96d72c",
-        "hash" : "d950193d1249573",
-        "hash7" : "d950193",
-        "hash8" : "d950193d",
-        "commitTime" : "2020-03-28 15:20:24.000 +0000",
-        "commitTimeLong" : 1585408824,
-        "message" : "feat(service): implement primary features and challenges\n\n------------\n# Locales\n- **[zh-cn]** 实现主要功能\n",
-        "merge" : false,
-        "authorIdent" : {
-          "when" : "2020-03-28 14:30:04.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
-        "committerIdent" : {
-          "when" : "2020-03-28 15:20:24.000 +0000",
-          "name" : "ymind",
-          "email" : "ymind@yi.team"
-        },
+      "releaseDate": "2020-03-28 23:29:24.000 +0800",
+      "sections": [
+        {
+          "title": "Features",
+          "commits": [
+            {
+              "hashFull": "d950193d1249573fe78cb42182eb15699b96d72c",
+              "hash": "d950193d1249573",
+              "hash7": "d950193",
+              "hash8": "d950193d",
+              "commitTime": "2020-03-28 23:20:24.000 +0800",
+              "commitTimeLong": 1585408824,
+              "message": "feat(service): implement primary features and challenges\n\n------------\n# Locales\n- **[zh-cn]** 实现主要功能\n",
+              "merge": false,
+              "authorIdent": {
+                "when": "2020-03-28 22:30:04.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
+              "committerIdent": {
+                "when": "2020-03-28 23:20:24.000 +0800",
+                "name": "ymind",
+                "email": "ymind@yi.team"
+              },
         "quickActions" : { },
         "closeIssues" : [ ],
         "subjectIssues" : [ ],
@@ -267,35 +738,41 @@
           "commitHash" : "d950193d",
           "lang" : "zh-cn",
           "commitType" : "feat",
-          "commitScope" : "task/changelog",
-          "subject" : "实现主要功能"
-        }, {
-          "commitHash" : "d950193d",
-          "lang" : "en",
-          "commitType" : "feat",
-          "commitScope" : "task/changelog",
-          "subject" : "implement primary features and challenges"
-        } ],
-        "defaultLang" : "en",
-        "commitUrl" : "https://github.com/ymind/gradle-semantic-gitlog/commit/d950193d1249573fe78cb42182eb15699b96d72c",
-        "commitType" : "feat",
-        "commitPackage" : null,
-        "commitScope" : "task/changelog",
-        "commitSubject" : "implement primary features and challenges",
-        "commitBody" : null,
-        "attention" : false,
-        "breakingChange" : false,
-        "deprecated" : false,
-        "commitIssue" : null,
-        "localeMap" : {
-          "en" : {
-            "commitHash" : "d950193d",
-            "lang" : "en",
-            "commitType" : "feat",
-            "commitScope" : "task/changelog",
-            "subject" : "implement primary features and challenges"
-          },
-          "zh-cn" : {
+          "commitScope": "task/changelog",
+          "subject": "实现主要功能"
+        },
+          {
+            "commitHash": "d950193d",
+            "lang": "en",
+            "commitType": "feat",
+            "commitScope": "task/changelog",
+            "subject": "implement primary features and challenges"
+          }
+        ],
+              "defaultLang": "en",
+              "commitUrl": "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/d950193d1249573fe78cb42182eb15699b96d72c",
+              "commitType": "feat",
+              "commitPackage": null,
+              "commitScope": "task/changelog",
+              "commitSubject": "implement primary features and challenges",
+              "commitBody": null,
+              "attention": false,
+              "breakingChange": false,
+              "deprecated": false,
+              "firstLocaleCommitType": "feat",
+              "rawCommitSubject": "implement primary features and challenges",
+              "firstLocaleCommitScope": "task/changelog",
+              "rawCommitScope": "service",
+              "commitIssue": null,
+              "localeMap": {
+                "en": {
+                  "commitHash": "d950193d",
+                  "lang": "en",
+                  "commitType": "feat",
+                  "commitScope": "task/changelog",
+                  "subject": "implement primary features and challenges"
+                },
+                "zh-cn": {
             "commitHash" : "d950193d",
             "lang" : "zh-cn",
             "commitType" : "feat",
@@ -303,11 +780,7 @@
             "subject" : "实现主要功能"
           }
         },
-        "firstLocaleCommitType" : "feat",
-        "firstLocaleCommitScope" : "task/changelog",
         "rawCommitType" : "feat",
-        "rawCommitScope" : "service",
-        "rawCommitSubject" : "implement primary features and challenges",
         "messageTitle" : "feat(service): implement primary features and challenges",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 实现主要功能"
       } ]
