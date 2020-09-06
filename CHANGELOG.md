@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.13 (2020-09-06)
+
+### Chores
+
+- **deps**: bump `semantic-gitlog` to `0.6.1` ([3fb9cba8](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/3fb9cba8c6553d918ced5fde416c4f22eb2d6602))
+
+
 ## 0.5.12 (2020-08-02)
 
 ### Documentation

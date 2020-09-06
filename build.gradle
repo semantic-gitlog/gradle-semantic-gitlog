@@ -12,7 +12,7 @@ plugins {
 
 group = 'team.yi.gradle.plugin'
 description = 'A simple `Semantic Versioning` management tool based on `Conventional Commits`.'
-version = '0.5.12'
+version = '0.5.13'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
@@ -30,7 +30,7 @@ dependencies {
     api gradleApi()
 
     // https://mvnrepository.com/artifact/team.yi.tools/semantic-gitlog
-    api 'team.yi.tools:semantic-gitlog:0.5.11'
+    api 'team.yi.tools:semantic-gitlog:0.6.1'
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
     testImplementation 'org.junit.jupiter:junit-jupiter:5.6.2'
