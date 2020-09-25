@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'team.yi.semantic-gitlog' version '0.5.13-SNAPSHOT'
+    id 'team.yi.semantic-gitlog' version '0.5.13'
 }
 
 group = 'team.yi.gradle.plugin.example'

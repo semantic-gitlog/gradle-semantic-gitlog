@@ -5,7 +5,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.*;
 import org.gradle.api.tasks.options.Option;
-import team.yi.tools.semanticgitlog.VersionStrategies;
+import team.yi.tools.semanticgitlog.VersionStrategy;
 import team.yi.tools.semanticgitlog.config.GitlogSettings;
 import team.yi.tools.semanticgitlog.git.GitRepo;
 import team.yi.tools.semanticgitlog.model.ReleaseLog;
@@ -34,7 +34,7 @@ public abstract class BaseTask extends DefaultTask {
     private String toCommit;
     private String untaggedName;
     private Boolean isUnstable;
-    private VersionStrategies strategy;
+    private VersionStrategy strategy;
     private Boolean forceNextVersion;
     private String lastVersion;
     private String preRelease;
@@ -207,7 +207,7 @@ public abstract class BaseTask extends DefaultTask {
 
     @Input
     @Optional
-    public VersionStrategies getStrategy() {
+    public VersionStrategy getStrategy() {
         return this.strategy;
     }
 
@@ -215,7 +215,7 @@ public abstract class BaseTask extends DefaultTask {
         option = "strategy",
         description = "Release strategy. Optional values: `strict`, `slow`. Default is `strict`."
     )
-    public void setStrategy(final VersionStrategies strategy) {
+    public void setStrategy(final VersionStrategy strategy) {
         this.strategy = strategy;
     }
 
