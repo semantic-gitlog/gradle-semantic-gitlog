@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.5.17 (2020-09-25)
+
+### Build System
+
+- **deps**: bumped `io.freefair.lombok` version from 5.1.0 to 5.2.1 ([cbf82c6f](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/cbf82c6f56656c0e5b8370176e16c99014722f45))
+- **deps**: bumped `team.yi.semantic-gitlog` version from 0.5.3 to 0.5.13 ([d2ce175d](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/d2ce175d52aefbe1e54e47933a153821e3fd85e8))
+- **deps**: bumped `junit-jupiter` version from 5.6.2 to 5.7.0 ([346efe6a](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/346efe6ac85b134d46b14f53a4fb9b3d832f3880))
+- **deps**: bumped `semantic-gitlog` version from 0.6.1 to 0.7.0 ([51d2d9ee](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/51d2d9ee99bca464146cb1b8b75029ada755fdc1))
+
+
 ## 0.5.13 (2020-09-06)
 
 ### Chores
