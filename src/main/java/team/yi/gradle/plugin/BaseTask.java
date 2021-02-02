@@ -37,6 +37,7 @@ public abstract class BaseTask extends DefaultTask {
     private VersionStrategy strategy;
     private Boolean forceNextVersion;
     private String lastVersion;
+    private String tagRegex;
     private String preRelease;
     private String buildMetaData;
     private String majorTypes;
@@ -246,6 +247,17 @@ public abstract class BaseTask extends DefaultTask {
 
     @Input
     @Optional
+    public String getTagRegex() {
+        return this.tagRegex;
+    }
+
+    @Option(option = "tagRegex", description = "Regex that matches all tags to be considered. Default matches all semver compliant tags.")
+    public void setTagRegex(final String tagRegex) {
+        this.tagRegex = tagRegex;
+    }
+
+    @Input
+    @Optional
     public String getPreRelease() {
         return this.preRelease;
     }
@@ -380,6 +392,7 @@ public abstract class BaseTask extends DefaultTask {
             .forceNextVersion(this.forceNextVersion)
 
             .lastVersion(lastVersion)
+            .tagRegex(tagRegex)
             .preRelease(this.preRelease)
             .buildMetaData(this.buildMetaData)
             .majorTypes(this.majorTypes)
