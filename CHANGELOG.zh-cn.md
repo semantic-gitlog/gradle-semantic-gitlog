@@ -1,5 +1,26 @@
 # 更新日志
 
+## 0.6.5 (2023-06-02)
+
+### Features
+
+- add tagRegex option ([30810ce5](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/30810ce5f2f278acd507bf59d711ca05943fe795))
+
+
+### Styles
+
+- code cleanup ([0a5b0acf](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/0a5b0acf3a26ab682b48af0fed546b2141704af7))
+
+
+### Build System
+
+- **依赖项**: bump junit-jupiter from 5.7.0 to 5.9.3 ([f93e0588](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/f93e05880611cc8e2ba734afd67c6875ba717221))
+- **依赖项**: bumped `semantic-gitlog` version from 0.7.0 to 0.8.8 ([5421d777](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/5421d7771a230e4933c3e196992bd065ca5ef8e6))
+- **依赖项**: bump io.freefair.lombok from 5.2.1 to 5.3.3.3 ([f9230c1e](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/f9230c1e1c653356572ef0af4edbdf2504330548))
+- **依赖项**: bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17 ([d9eeb5f7](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/d9eeb5f7be28f10be9b9cba61a350e06fbd231a7))
+- **gradle**: bumped gradle version from 6.3 to 6.6.1 ([26520fd2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/26520fd2892046061253af9909febf5fa4c24337))
+
+
 ## 0.5.17 (2020-09-25)
 
 ### Build System
@@ -19,17 +40,6 @@
 
 ## 0.5.12 (2020-08-02)
 
-### Documentation
-
-- **文档**: 更新说明文档 ([429a89a2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/429a89a2dad1f9a9cd6c7b13baa8417fce19d261))
-- **文档**: update docs ([f70b56e2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/f70b56e2888338dd3fe1a95b49e94085c1f2bb0e))
-
-
-### Styles
-
-- **editorconfig**: update .editorconfig, disable .mustache file indent ([bdb1a120](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/bdb1a120243429a17866e6c333a1ab54ca5d216c))
-
-
 ### Chores
 
 - **依赖项**: 更新 `semantic-gitlog` 至 `0.5.11` ([fe397c82](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/fe397c820b10a691509600aa82b3f981d15aa49e))
@@ -39,6 +49,17 @@
 - **依赖项**: bump junit-jupiter from 5.6.1 to 5.6.2 ([5839b561](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/5839b56129701571f8271afa121473c7660208bd))
 - **依赖项**: bump checkstyle from 8.30 to 8.35 ([b99c7f87](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/b99c7f871d302185524f3e1d5656fac4656b445e))
 - **依赖项**: bump pmd from 6.22.0 to 6.26.0 ([3cd2939f](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/3cd2939fb61046db4a0eb2cabfe5c03dffbdd3ea))
+
+
+### Styles
+
+- **editorconfig**: update .editorconfig, disable .mustache file indent ([bdb1a120](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/bdb1a120243429a17866e6c333a1ab54ca5d216c))
+
+
+### Documentation
+
+- **文档**: 更新说明文档 ([429a89a2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/429a89a2dad1f9a9cd6c7b13baa8417fce19d261))
+- **文档**: update docs ([f70b56e2](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/f70b56e2888338dd3fe1a95b49e94085c1f2bb0e))
 
 
 ### Continuous Integration
