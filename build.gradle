@@ -6,7 +6,7 @@ plugins {
     id 'signing'
     id 'checkstyle'
     id 'pmd'
-    id "io.freefair.lombok" version "5.2.1"
+    id "io.freefair.lombok" version "5.3.3.3"
     id 'team.yi.semantic-gitlog' version '0.5.13'
 }
 
