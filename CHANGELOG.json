@@ -2,28 +2,353 @@
   "nextVersion" : {
     "major" : 0,
     "minor" : 6,
+    "patch" : 12,
+    "preReleaseParts" : [ ],
+    "buildMetaDataParts" : [ ],
+    "preRelease" : "",
+    "buildMetaData" : "",
+    "stable" : true,
+    "initialDevelopment" : true
+  },
+  "lastVersion" : {
+    "major" : 0,
+    "minor" : 6,
     "patch" : 5,
     "preReleaseParts" : [ ],
     "buildMetaDataParts" : [ ],
     "preRelease" : "",
     "buildMetaData" : "",
-    "initialDevelopment" : true,
-    "stable" : true
-  },
-  "lastVersion" : {
-    "major" : 0,
-    "minor" : 5,
-    "patch" : 17,
-    "preReleaseParts" : [ ],
-    "buildMetaDataParts" : [ ],
-    "preRelease" : "",
-    "buildMetaData" : "",
-    "initialDevelopment" : true,
-    "stable" : true
+    "stable" : true,
+    "initialDevelopment" : true
   },
   "tags" : [ {
     "version" : null,
     "releaseDate" : null,
+    "sections" : [ {
+      "title" : "Build System",
+      "commits" : [ {
+        "hashFull" : "e14baf07d43b742d79033151af5e2dea47277772",
+        "hash" : "e14baf07d43b742",
+        "hash7" : "e14baf0",
+        "hash8" : "e14baf07",
+        "commitTime" : "2024-01-26 15:04:50.000 +0800",
+        "commitTimeLong" : 1706252690,
+        "message" : "build(gradle): bumped jdk version to 11\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 14:49:17.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:04:50.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/e14baf07d43b742d79033151af5e2dea47277772",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "bumped jdk version to 11",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "bumped jdk version to 11",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): bumped jdk version to 11",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "cd21c1cdc3cb7edeada5054e97f3a7335bf73612",
+        "hash" : "cd21c1cdc3cb7ed",
+        "hash7" : "cd21c1c",
+        "hash8" : "cd21c1cd",
+        "commitTime" : "2024-01-26 15:04:50.000 +0800",
+        "commitTimeLong" : 1706252690,
+        "message" : "build(gradle): remove plugin pmd\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 14:54:40.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:04:50.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/cd21c1cdc3cb7edeada5054e97f3a7335bf73612",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "remove plugin pmd",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "remove plugin pmd",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): remove plugin pmd",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "648ca8692489d54134845a4c5a1bd5359bd80ef2",
+        "hash" : "648ca8692489d54",
+        "hash7" : "648ca86",
+        "hash8" : "648ca869",
+        "commitTime" : "2024-01-26 15:04:50.000 +0800",
+        "commitTimeLong" : 1706252690,
+        "message" : "build(gradle): bumped gradle version to 8.5\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 14:48:19.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:04:50.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/648ca8692489d54134845a4c5a1bd5359bd80ef2",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "bumped gradle version to 8.5",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "bumped gradle version to 8.5",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): bumped gradle version to 8.5",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "32b20aa0762e2370b7d23a3393f0b640170cf3d7",
+        "hash" : "32b20aa0762e237",
+        "hash7" : "32b20aa",
+        "hash8" : "32b20aa0",
+        "commitTime" : "2024-01-26 15:04:50.000 +0800",
+        "commitTimeLong" : 1706252690,
+        "message" : "build(gradle): bumped lombok version to 1.18.30\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 15:04:32.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:04:50.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/32b20aa0762e2370b7d23a3393f0b640170cf3d7",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "bumped lombok version to 1.18.30",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "bumped lombok version to 1.18.30",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): bumped lombok version to 1.18.30",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "1d4433c1cbb606a367946a074d25879260dcc669",
+        "hash" : "1d4433c1cbb606a",
+        "hash7" : "1d4433c",
+        "hash8" : "1d4433c1",
+        "commitTime" : "2024-01-26 15:04:50.000 +0800",
+        "commitTimeLong" : 1706252690,
+        "message" : "build(gradle): remove plugin checkstyle\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 14:55:30.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:04:50.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/1d4433c1cbb606a367946a074d25879260dcc669",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "remove plugin checkstyle",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "remove plugin checkstyle",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): remove plugin checkstyle",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "a997f1941e898ff43928cad6ac752a9fc8f60a04",
+        "hash" : "a997f1941e898ff",
+        "hash7" : "a997f19",
+        "hash8" : "a997f194",
+        "commitTime" : "2024-01-26 15:10:55.000 +0800",
+        "commitTimeLong" : 1706253055,
+        "message" : "build(gradle): bumped com.gradle.plugin-publish version to 1.2.1\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 15:10:55.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:10:55.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/a997f1941e898ff43928cad6ac752a9fc8f60a04",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "bumped com.gradle.plugin-publish version to 1.2.1",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "bumped com.gradle.plugin-publish version to 1.2.1",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): bumped com.gradle.plugin-publish version to 1.2.1",
+        "messageBody" : ""
+      }, {
+        "hashFull" : "7617351b713a291760f208f50f57d51d029a10ae",
+        "hash" : "7617351b713a291",
+        "hash7" : "7617351",
+        "hash8" : "7617351b",
+        "commitTime" : "2024-01-26 15:11:54.000 +0800",
+        "commitTimeLong" : 1706253114,
+        "message" : "build(gradle): bumped team.yi.semantic-gitlog version to 0.6.5\n",
+        "merge" : false,
+        "authorIdent" : {
+          "when" : "2024-01-26 15:11:54.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "committerIdent" : {
+          "when" : "2024-01-26 15:11:54.000 +0800",
+          "name" : "oc",
+          "email" : "oc@yi.team"
+        },
+        "quickActions" : { },
+        "closeIssues" : [ ],
+        "subjectIssues" : [ ],
+        "bodyIssues" : [ ],
+        "mentions" : [ ],
+        "locales" : [ ],
+        "defaultLang" : "en",
+        "commitUrl" : "https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/7617351b713a291760f208f50f57d51d029a10ae",
+        "commitType" : "build",
+        "commitPackage" : null,
+        "commitScope" : "gradle",
+        "commitSubject" : "bumped team.yi.semantic-gitlog version to 0.6.5",
+        "commitBody" : null,
+        "attention" : false,
+        "breakingChange" : false,
+        "deprecated" : false,
+        "firstLocaleCommitType" : null,
+        "firstLocaleCommitScope" : null,
+        "rawCommitSubject" : "bumped team.yi.semantic-gitlog version to 0.6.5",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
+        "localeMap" : null,
+        "commitIssue" : null,
+        "messageTitle" : "build(gradle): bumped team.yi.semantic-gitlog version to 0.6.5",
+        "messageBody" : ""
+      } ]
+    } ]
+  }, {
+    "version" : {
+      "major" : 0,
+      "minor" : 6,
+      "patch" : 5,
+      "preReleaseParts" : [ ],
+      "buildMetaDataParts" : [ ],
+      "preRelease" : "",
+      "buildMetaData" : "",
+      "stable" : true,
+      "initialDevelopment" : true
+    },
+    "releaseDate" : "2023-06-02 12:08:34.000 +0800",
     "sections" : [ {
       "title" : "Features",
       "commits" : [ {
@@ -63,11 +388,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : null,
         "rawCommitSubject" : "add tagRegex option",
+        "rawCommitScope" : null,
+        "rawCommitType" : "feat",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "feat",
         "messageTitle" : "feat: add tagRegex option",
         "messageBody" : "Fixes: semantic-gitlog/semantic-gitlog#9"
       } ]
@@ -110,11 +435,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : null,
         "rawCommitSubject" : "code cleanup",
+        "rawCommitScope" : null,
+        "rawCommitType" : "style",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "style",
         "messageTitle" : "style: code cleanup",
         "messageBody" : ""
       } ]
@@ -157,11 +482,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump junit-jupiter from 5.7.0 to 5.9.3",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bump junit-jupiter from 5.7.0 to 5.9.3",
         "messageBody" : ""
       }, {
@@ -201,11 +526,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `semantic-gitlog` version from 0.7.0 to 0.8.8",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bumped `semantic-gitlog` version from 0.7.0 to 0.8.8",
         "messageBody" : ""
       }, {
@@ -245,11 +570,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump io.freefair.lombok from 5.2.1 to 5.3.3.3",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bump io.freefair.lombok from 5.2.1 to 5.3.3.3",
         "messageBody" : ""
       }, {
@@ -289,11 +614,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bump team.yi.semantic-gitlog from 0.5.13 to 0.5.17",
         "messageBody" : ""
       }, {
@@ -333,11 +658,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "gradle",
         "rawCommitSubject" : "bumped gradle version from 6.3 to 6.6.1",
+        "rawCommitScope" : "gradle",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(gradle): bumped gradle version from 6.3 to 6.6.1",
         "messageBody" : ""
       } ]
@@ -351,8 +676,8 @@
       "buildMetaDataParts" : [ ],
       "preRelease" : "",
       "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "stable" : true,
+      "initialDevelopment" : true
     },
     "releaseDate" : "2020-09-25 16:25:15.000 +0800",
     "sections" : [ {
@@ -394,11 +719,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `io.freefair.lombok` version from 5.1.0 to 5.2.1",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bumped `io.freefair.lombok` version from 5.1.0 to 5.2.1",
         "messageBody" : ""
       }, {
@@ -438,11 +763,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `team.yi.semantic-gitlog` version from 0.5.3 to 0.5.13",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bumped `team.yi.semantic-gitlog` version from 0.5.3 to 0.5.13",
         "messageBody" : ""
       }, {
@@ -482,11 +807,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `junit-jupiter` version from 5.6.2 to 5.7.0",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bumped `junit-jupiter` version from 5.6.2 to 5.7.0",
         "messageBody" : ""
       }, {
@@ -526,11 +851,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `semantic-gitlog` version from 0.6.1 to 0.7.0",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "build",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "build",
         "messageTitle" : "build(deps): bumped `semantic-gitlog` version from 0.6.1 to 0.7.0",
         "messageBody" : ""
       } ]
@@ -544,8 +869,8 @@
       "buildMetaDataParts" : [ ],
       "preRelease" : "",
       "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "stable" : true,
+      "initialDevelopment" : true
     },
     "releaseDate" : "2020-09-06 23:08:30.000 +0800",
     "sections" : [ {
@@ -593,8 +918,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump `semantic-gitlog` to `0.6.1`",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "3fb9cba8c6553d918ced5fde416c4f22eb2d6602",
@@ -605,7 +931,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump `semantic-gitlog` to `0.6.1`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新 `semantic-gitlog` 至 `0.6.1`"
       } ]
@@ -619,8 +944,8 @@
       "buildMetaDataParts" : [ ],
       "preRelease" : "",
       "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "stable" : true,
+      "initialDevelopment" : true
     },
     "releaseDate" : "2020-08-02 14:25:54.000 +0800",
     "sections" : [ {
@@ -668,8 +993,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump `semantic-gitlog` to `0.5.11`",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "fe397c820b10a691509600aa82b3f981d15aa49e",
@@ -680,7 +1006,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump `semantic-gitlog` to `0.5.11`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新 `semantic-gitlog` 至 `0.5.11`"
       }, {
@@ -720,11 +1045,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump com.gradle.plugin-publish from 0.11.0 to 0.12.0",
         "messageBody" : ""
       }, {
@@ -764,11 +1089,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump io.freefair.lombok from 4.1.6 to 5.1.0",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump io.freefair.lombok from 4.1.6 to 5.1.0",
         "messageBody" : ""
       }, {
@@ -808,11 +1133,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump team.yi.semantic-gitlog from 0.5.0 to 0.5.3",
         "messageBody" : ""
       }, {
@@ -852,11 +1177,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump junit-jupiter from 5.6.1 to 5.6.2",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump junit-jupiter from 5.6.1 to 5.6.2",
         "messageBody" : ""
       }, {
@@ -896,11 +1221,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump checkstyle from 8.30 to 8.35",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump checkstyle from 8.30 to 8.35",
         "messageBody" : ""
       }, {
@@ -940,11 +1265,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bump pmd from 6.22.0 to 6.26.0",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bump pmd from 6.22.0 to 6.26.0",
         "messageBody" : ""
       } ]
@@ -987,11 +1312,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "editorconfig",
         "rawCommitSubject" : "update .editorconfig, disable .mustache file indent",
+        "rawCommitScope" : "editorconfig",
+        "rawCommitType" : "style",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "style",
         "messageTitle" : "style(editorconfig): update .editorconfig, disable .mustache file indent",
         "messageBody" : ""
       } ]
@@ -1040,8 +1365,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "docs",
         "rawCommitSubject" : "update docs",
+        "rawCommitScope" : "docs",
+        "rawCommitType" : "docs",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "429a89a2dad1f9a9cd6c7b13baa8417fce19d261",
@@ -1052,7 +1378,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "docs",
         "messageTitle" : "docs(docs): update docs",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新说明文档"
       }, {
@@ -1092,11 +1417,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "docs",
         "rawCommitSubject" : "update docs",
+        "rawCommitScope" : "docs",
+        "rawCommitType" : "docs",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "docs",
         "messageTitle" : "docs(docs): update docs",
         "messageBody" : ""
       } ]
@@ -1139,11 +1464,11 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "github",
         "rawCommitSubject" : "add github workflows",
+        "rawCommitScope" : "github",
+        "rawCommitType" : "ci",
         "localeMap" : null,
         "commitIssue" : null,
-        "rawCommitType" : "ci",
         "messageTitle" : "ci(github): add github workflows",
         "messageBody" : ""
       } ]
@@ -1157,8 +1482,8 @@
       "buildMetaDataParts" : [ ],
       "preRelease" : "",
       "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "stable" : true,
+      "initialDevelopment" : true
     },
     "releaseDate" : "2020-04-16 10:34:09.000 +0800",
     "sections" : [ {
@@ -1206,8 +1531,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "changelog",
         "rawCommitSubject" : "fix configuration issues for `fileSets` under gradle-kotlin",
+        "rawCommitScope" : "changelog",
+        "rawCommitType" : "fix",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "72b2c562333063db772bc4ac30b20519153f056d",
@@ -1218,7 +1544,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "fix",
         "messageTitle" : "fix(task/changelog): fix configuration issues for `fileSets` under gradle-kotlin",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 修复 gradle-kotlin 下的 `fileSets` 配置问题"
       } ]
@@ -1267,8 +1592,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "model",
         "rawCommitSubject" : "remove lombok annotations from `FileSet`",
+        "rawCommitScope" : "model",
+        "rawCommitType" : "refactor",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "2b381fe2ad07532c06e239c2ab0cda613b736e0b",
@@ -1279,7 +1605,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "refactor",
         "messageTitle" : "refactor(model): remove lombok annotations from `FileSet`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 剔除 `FileSet` 的 lombok 注解"
       } ]
@@ -1328,8 +1653,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : null,
         "firstLocaleCommitScope" : null,
-        "rawCommitScope" : "deps",
         "rawCommitSubject" : "bumped `team.yi.semantic-gitlog` version to `0.5.0`",
+        "rawCommitScope" : "deps",
+        "rawCommitType" : "chore",
         "localeMap" : {
           "zh-cn" : {
             "commitHash" : "59fadf616d1d86abbf1da954819438dd2b7ed7f7",
@@ -1340,7 +1666,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "chore",
         "messageTitle" : "chore(deps): bumped `team.yi.semantic-gitlog` version to `0.5.0`",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 更新 `team.yi.semantic-gitlog` 版本至 `0.5.0`"
       } ]
@@ -1354,8 +1679,8 @@
       "buildMetaDataParts" : [ ],
       "preRelease" : "",
       "buildMetaData" : "",
-      "initialDevelopment" : true,
-      "stable" : true
+      "stable" : true,
+      "initialDevelopment" : true
     },
     "releaseDate" : "2020-03-28 23:29:24.000 +0800",
     "sections" : [ {
@@ -1415,8 +1740,9 @@
         "deprecated" : false,
         "firstLocaleCommitType" : "feat",
         "firstLocaleCommitScope" : "task/changelog",
-        "rawCommitScope" : "service",
         "rawCommitSubject" : "implement primary features and challenges",
+        "rawCommitScope" : "service",
+        "rawCommitType" : "feat",
         "localeMap" : {
           "en" : {
             "commitHash" : "d950193d",
@@ -1434,7 +1760,6 @@
           }
         },
         "commitIssue" : null,
-        "rawCommitType" : "feat",
         "messageTitle" : "feat(service): implement primary features and challenges",
         "messageBody" : "------------\n# Locales\n- **[zh-cn]** 实现主要功能"
       } ]

@@ -12,7 +12,7 @@ plugins {
 
 group = 'team.yi.gradle.plugin'
 description = 'A simple `Semantic Versioning` management tool based on `Conventional Commits`.'
-version = '0.6.5'
+version = '0.6.12'
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11

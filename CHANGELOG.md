@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.6.12 (2024-01-26)
+
+### Build System
+
+- **gradle**: bumped jdk version to 11 ([e14baf07](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/e14baf07d43b742d79033151af5e2dea47277772))
+- **gradle**: remove plugin pmd ([cd21c1cd](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/cd21c1cdc3cb7edeada5054e97f3a7335bf73612))
+- **gradle**: bumped gradle version to 8.5 ([648ca869](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/648ca8692489d54134845a4c5a1bd5359bd80ef2))
+- **gradle**: bumped lombok version to 1.18.30 ([32b20aa0](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/32b20aa0762e2370b7d23a3393f0b640170cf3d7))
+- **gradle**: remove plugin checkstyle ([1d4433c1](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/1d4433c1cbb606a367946a074d25879260dcc669))
+- **gradle**: bumped com.gradle.plugin-publish version to 1.2.1 ([a997f194](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/a997f1941e898ff43928cad6ac752a9fc8f60a04))
+- **gradle**: bumped team.yi.semantic-gitlog version to 0.6.5 ([7617351b](https://github.com/semantic-gitlog/gradle-semantic-gitlog/commit/7617351b713a291760f208f50f57d51d029a10ae))
+
+
 ## 0.6.5 (2023-06-02)
 
 ### Features
