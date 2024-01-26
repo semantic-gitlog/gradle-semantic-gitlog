@@ -6,7 +6,6 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'signing'
-    id 'checkstyle'
     id "io.freefair.lombok" version "5.3.3.3"
     id 'team.yi.semantic-gitlog' version '0.5.17'
 }
@@ -18,8 +17,6 @@ version = '0.6.5'
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
 generateLombokConfig.enabled = false
-
-checkstyle.toolVersion = '8.35'
 
 repositories {
     mavenCentral()
@@ -73,15 +70,6 @@ test {
 
 tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
-}
-
-tasks.withType(Checkstyle) {
-    ignoreFailures = false
-
-    reports {
-        xml.enabled false
-        html.enabled true
-    }
 }
 
 java {
