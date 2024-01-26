@@ -1,3 +1,5 @@
+import team.yi.tools.semanticgitlog.VersionStrategy
+
 plugins {
     id 'java-gradle-plugin'
     id 'com.gradle.plugin-publish' version '0.12.0'
@@ -205,6 +207,7 @@ task setNewVersion {
 
 changelog {
     toRef = "master"
+    strategy = VersionStrategy.strict
 
     jsonFile = file("${rootDir}/CHANGELOG.json")
     fileSets = [
@@ -234,6 +237,7 @@ changelog {
 
 derive {
     toRef = "master"
+    strategy = VersionStrategy.strict
     derivedVersionMark = "NEXT_VERSION:=="
 
     commitLocales = [
