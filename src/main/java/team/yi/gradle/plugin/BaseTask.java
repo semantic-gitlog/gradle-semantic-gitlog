@@ -20,7 +20,6 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Paths;
 import java.util.Map;
 
-@SuppressWarnings({"PMD.TooManyFields", "PMD.ExcessivePublicCount"})
 @Slf4j
 public abstract class BaseTask extends DefaultTask {
     private Boolean skip;

@@ -30,7 +30,6 @@ public class ChangelogTask extends BaseTask {
         return this.fileSets;
     }
 
-    @SuppressWarnings("PMD.MethodArgumentCouldBeFinal")
     public void setFileSets(List<Closure<FileSet>> fileSets) {
         log.info("{}", fileSets.size());
 
@@ -47,7 +46,6 @@ public class ChangelogTask extends BaseTask {
         }
     }
 
-    @SuppressWarnings("PMD.MethodArgumentCouldBeFinal")
     public void setFileSets(Set<FileSet> fileSets) {
         this.fileSets = fileSets;
     }
