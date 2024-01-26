@@ -2,7 +2,7 @@ import team.yi.tools.semanticgitlog.VersionStrategy
 
 plugins {
     id 'java-gradle-plugin'
-    id 'com.gradle.plugin-publish' version '0.12.0'
+    id 'com.gradle.plugin-publish' version '1.2.1'
     id 'java-library'
     id 'maven-publish'
     id 'signing'
@@ -36,25 +36,16 @@ lombok {
 }
 
 gradlePlugin {
+    website = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
+    vcsUrl = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
+
     plugins {
         changelogPlugin {
             id = 'team.yi.semantic-gitlog'
             implementationClass = 'team.yi.gradle.plugin.ChangelogPlugin'
             displayName = 'gradle-semantic-gitlog'
-        }
-    }
-}
-
-pluginBundle {
-    website = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
-    vcsUrl = 'https://github.com/semantic-gitlog/gradle-semantic-gitlog'
-    description = 'gradle-semantic-gitlog'
-    tags = ['versioning', 'semantic-versioning', 'git', 'auto-versioning', 'version']
-
-    plugins {
-        changelogPlugin {
-            id = 'team.yi.semantic-gitlog'
-            displayName = 'gradle-semantic-gitlog'
+            description = 'gradle-semantic-gitlog'
+            tags = ['versioning', 'semantic-versioning', 'git', 'auto-versioning', 'version']
         }
     }
 }
