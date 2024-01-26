@@ -1,6 +1,7 @@
 package team.yi.gradle.plugin;
 
 import de.skuzzle.semantic.Version;
+import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.gradle.api.DefaultTask;
 import org.gradle.api.tasks.Input;
@@ -24,7 +25,9 @@ import java.util.Map;
 public abstract class BaseTask extends DefaultTask {
     private Boolean skip;
     private String defaultLang;
+    @Setter
     private Map<String, File> commitLocales;
+    @Setter
     private Map<String, File> scopeProfiles;
     private String closeIssueActions;
     private String issueUrlTemplate;
@@ -48,6 +51,7 @@ public abstract class BaseTask extends DefaultTask {
     private String preReleaseTypes;
     private String buildMetaDataTypes;
     private String hiddenTypes;
+    @Setter
     private File jsonFile;
 
     @Input
@@ -78,18 +82,10 @@ public abstract class BaseTask extends DefaultTask {
         return this.commitLocales;
     }
 
-    public void setCommitLocales(final Map<String, File> commitLocales) {
-        this.commitLocales = commitLocales;
-    }
-
     @Input
     @Optional
     public Map<String, File> getScopeProfiles() {
         return this.scopeProfiles;
-    }
-
-    public void setScopeProfiles(final Map<String, File> scopeProfiles) {
-        this.scopeProfiles = scopeProfiles;
     }
 
     @Input
@@ -363,10 +359,6 @@ public abstract class BaseTask extends DefaultTask {
     @Optional
     public File getJsonFile() {
         return this.jsonFile;
-    }
-
-    public void setJsonFile(final File jsonFile) {
-        this.jsonFile = jsonFile;
     }
 
     protected final GitlogSettings gitlogSettings() {

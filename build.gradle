@@ -6,7 +6,7 @@ plugins {
     id 'java-library'
     id 'maven-publish'
     id 'signing'
-    id "io.freefair.lombok" version "5.3.3.3"
+    id "io.freefair.lombok" version "8.4"
     id 'team.yi.semantic-gitlog' version '0.5.17'
 }
 
@@ -16,7 +16,6 @@ version = '0.6.5'
 
 sourceCompatibility = JavaVersion.VERSION_11
 targetCompatibility = JavaVersion.VERSION_11
-generateLombokConfig.enabled = false
 
 repositories {
     mavenCentral()
@@ -26,14 +25,14 @@ dependencies {
     api gradleApi()
 
     // https://mvnrepository.com/artifact/team.yi.tools/semantic-gitlog
-    api 'team.yi.tools:semantic-gitlog:0.8.8'
+    api 'team.yi.tools:semantic-gitlog:0.8.20'
 
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.1'
 }
 
 lombok {
-    version = "1.18.12"
+    version = "1.18.30"
 }
 
 gradlePlugin {
