@@ -7,7 +7,7 @@ plugins {
     id 'maven-publish'
     id 'signing'
     id "io.freefair.lombok" version "8.4"
-    id 'team.yi.semantic-gitlog' version '0.5.17'
+    id 'team.yi.semantic-gitlog' version '0.6.5'
 }
 
 group = 'team.yi.gradle.plugin'
